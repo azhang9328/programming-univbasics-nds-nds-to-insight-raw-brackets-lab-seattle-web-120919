@@ -24,4 +24,5 @@ def directors_totals(nds)
     result = {nds[dirIndex] => dirTotal}
     dirIndex += 1 
   end   
+  p result
 end
