@@ -20,8 +20,8 @@ def directors_totals(nds)
     while movieIndex < nds[dirIndex][:movies].length do 
     dirTotal += nds[dirIndex][:movies][movieIndex][:worldwid_gross]
     movieIndex += 1   
-    puts dirTotal
     end
+    result = {nds[dirIndex] => dirTotal}
     dirIndex += 1 
   end   
 end
