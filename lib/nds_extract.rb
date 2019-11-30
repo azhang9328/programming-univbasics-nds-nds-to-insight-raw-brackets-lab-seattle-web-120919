@@ -14,7 +14,7 @@ def directors_totals(nds)
     puts dirTotal
     movieIndex += 1   
     end
-    result[] 
+    result[":#{nds[dirIndex][:name] = }"] 
     dirIndex += 1 
   end   
 end
