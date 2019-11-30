@@ -3,5 +3,5 @@ require 'directors_database'
 
 def directors_totals(nds)
 
- p nds[0]
+ p nds[0][:movies]
 end
