@@ -13,5 +13,5 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-
+ puts nds[dirIndex][:movies][movieIndex][:worldwid_gross]
 end
