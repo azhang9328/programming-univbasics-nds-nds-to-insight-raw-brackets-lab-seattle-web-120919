@@ -16,10 +16,11 @@ def directors_totals(nds)
   dirIndex = 0 
   while dirIndex < nds.length do 
     movieIndex = 0 
+    dirTotal = 0 
     while movieIndex < nds[dirIndex][:movies].length do 
       
-    dirIndex += 1   
+    movieIndex += 1   
     end
-    movieIndex += 1 
+    dirIndex += 1 
   end   
 end
