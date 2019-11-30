@@ -13,5 +13,13 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  nil
+  dirIndex = 0 
+  while dirIndex < nds.length do 
+    movieIndex = 0 
+    while movieIndex < nds[dirIndex][:movies].length do 
+      
+    dirIndex += 1   
+    end
+    movieIndex += 1 
+  end   
 end
