@@ -10,6 +10,8 @@ def directors_totals(nds)
     dirTotal = 0 
     while movieIndex < nds[dirIndex][:movies].length do 
     puts "innerloop"
+    dirTotal += 
+    puts dirTotal
     movieIndex += 1   
     end
     dirIndex += 1 
