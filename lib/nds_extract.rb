@@ -2,16 +2,6 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-  result = {
-  }
-  #
-  # Use loops, variables and the accessing method, [], to loop through the NDS
-  # and total up all the
-  # ...
-  # ...
-  # ...
-  #
-  #
-  # Be sure to return the result at the end!
+
  puts nds[0][:movies][0][:worldwid_gross]
 end
