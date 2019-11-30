@@ -11,8 +11,6 @@ def directors_totals(nds)
     puts "innerloop"
     movieIndex += 1   
     end
-    result = {nds[dirIndex] => dirTotal}
     dirIndex += 1 
   end   
-  p result
 end
